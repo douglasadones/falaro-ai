@@ -14,9 +14,12 @@ Siga os passos abaixo para configurar e executar o projeto em seu ambiente local
 ```bash
 git clone https://github.com/douglasadones/falaro-ai.git
 cd falaro-ai
+```
 
-### 2. Clonar o Repositório Fake.br-Corpus
+### 2. Clonar o Repositório Fake.br-Corpus (no diretório raiz do seu projeto onde está o main.py)
+```bash
 git clone https://github.com/roneysco/Fake.br-Corpus.git
+```
 
 ### 3. **Instalar dependências:**
 ```bash
