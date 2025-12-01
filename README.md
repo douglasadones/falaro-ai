@@ -7,14 +7,26 @@ Este projeto implementa um classificador de Machine Learning para identificar no
 - `matriz_confusao.png`: Visualização da avaliação do modelo.
 - `relatorio_classificacao.txt`: Métricas de desempenho do modelo.
 ## Como Executar
-1. **Instalar dependências:**
+Siga os passos abaixo para configurar e executar o projeto em seu ambiente local.
+
+### 1. Clonar o Repositório do Projeto
+
+```bash
+git clone https://github.com/douglasadones/falaro-ai.git
+cd falaro-ai
+
+### 2. Clonar o Repositório Fake.br-Corpus
+git clone https://github.com/roneysco/Fake.br-Corpus.git
+
+### 3. **Instalar dependências:**
 ```bash
 python3.11 -m venv venv
 source venv/bin/activate
 pip install pandas scikit-learn matplotlib seaborn nltk
 python -c "import nltk; nltk.download('stopwords')"
 ```
-2. **Executar o script principal:**
+
+### 4. **Executar o script principal:**
 ```bash
 python main.py
 ```
